@@ -4,6 +4,13 @@
 > POE 랜선과 디버깅용 USB 케이블 절대 같이 연결하시면 안됩니다.
 > Olimex POE 보드 자체에 절연이 없어 쇼트 위험 있습니다.
 
+## 3D 프린팅 관련
+- STEP(STP)파일은 CNC가공시 주로 사용합니다.
+- STL 파일은 3D 프린팅시 주로 사용합니다.
+- [크렐로](https://creallo.com)
+- <img src="https://github.com/sam0910/zeno-btn/assets/9714538/567c39ef-8bbb-42b7-93ff-e46b55dd56eb" width="50%">
+- [아이컨택](https://blog.naver.com/eyecontact_inc/223191817836)
+ 
 ## 보드 고유번호는 보드내 딥스위치로 설정 가능합니다.
 > 1byte 개념으로 0~255까지 설정 가능합니다.
 ```
