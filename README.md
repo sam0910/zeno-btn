@@ -22,7 +22,8 @@
 128  64  32  16  8  4  2  1
   0   0   0  16  0  0  0  1 = 17
 ```
-![DIP SWITCH](https://github.com/sam0910/zeno-btn/DIP_SW.png)
+<img src="https://github.com/sam0910/zeno-btn/assets/9714538/fdd0b4b4-2120-4eb1-8431-ad5ad76effe2" width="50%">
+
 
 ## 기타 나사 및 아크릴 자재 구매처
 - 사용된 나사는 M3*5mm 일자나사입니다. [구매처 링크](http://www.nasakorea.com/goods/goods_view.php?goodsNo=3419)
