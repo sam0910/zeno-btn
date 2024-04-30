@@ -1,0 +1,13 @@
+{
+    "version": "0.0",
+    "config_url": "http://192.168.10.212:1002/config.json",
+    "image_url": "http://192.168.10.212:1002",
+    "mqtt_url": "192.168.10.170",
+    "mqtt_user": "user",
+    "mqtt_passwd": "passwd",
+    "mqtt_port": 1883,
+    "mqtt_keepalive": 120,
+    "mqtt_pub": "zeno",
+    "mqtt_sub": "zeno/[id]",
+    "mqtt_ping": "zeno/ping"
+}

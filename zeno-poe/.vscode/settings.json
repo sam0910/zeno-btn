@@ -1,0 +1,47 @@
+{
+    "python.analysis.extraPaths": ["./src/lib"],
+    "python.testing.unittestEnabled": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedImport": "none",
+        "reportMissingImports": "none",
+        "reportUndefinedVariable": "none",
+        "reportImportError": "none",
+        "reportGeneralTypeIssues": "none",
+        "reportUnboundVariable": "none",
+        "reportOptionalMemberAccess": "none",
+        "reportOptionalSubscript": "none"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true,
+    "editor.suggest.preview": false,
+    "editor.inlineSuggest.showToolbar": "onHover",
+    "editor.suggestOnTriggerCharacters": false,
+    "outline.collapseItems": "alwaysCollapse",
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggest.selectionMode": "always",
+    "editor.quickSuggestionsDelay": 600,
+    "editor.quickSuggestions": {
+        "other": "inline"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "black-formatter.args": [
+        "--line-length=120"
+    ],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot-labs.showBrushesLenses": false,
+    "github.copilot-labs.showTestGenerationLenses": false,
+    "flake8.args": [
+        "--ignore=E501,W503,F401,E721,E722,E402,E401",
+        "--max-line-length=120"
+    ],
+    
+    "editor.colorDecoratorsActivatedOn": "clickAndHover",
+    "editor.hover.delay": 500,
+    "editor.fontFamily": "'Hack'",
+    "editor.fontSize": 14,
+    "python.analysis.autoImportCompletions": true
+}

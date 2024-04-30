@@ -1,0 +1,63 @@
+{
+    "version": "0.0",
+    "buzzer": {
+        "on": [
+            {
+                "freq": 4000,
+                "duration": 80,
+                "duty": 512
+            }
+        ],
+        "off": [
+            {
+                "freq": 4000,
+                "duration": 30,
+                "duty": 512
+            },
+            {
+                "freq": 3200,
+                "duration": 70,
+                "duty": 512
+            }
+        ]
+    },
+    "images": [
+        {
+            "url": "logo.png",
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "state": "retain"
+        },
+        {
+            "url": "name.png",
+            "x": 0,
+            "y": 268,
+            "z": 9,
+            "state": "retain"
+        },
+        {
+            "retain": 0,
+            "url": "in.png",
+            "x": 0,
+            "y": 50,
+            "z": 1,
+            "state": "on"
+        },
+        {
+            "retain": 0,
+            "url": "out.png",
+            "x": 0,
+            "y": 50,
+            "z": 2,
+            "state": "off"
+        },
+        {
+            "url": "_main_logo.png",
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "state": "boot"
+        }
+    ]
+}

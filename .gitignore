@@ -6,10 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
-
+**/*.code-workspace
+**/node_modules
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
+**/*.temp
 # Runtime data
 pids
 *.pid
@@ -69,17 +70,14 @@ web_modules/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variable files
 .env
 .env.development.local
 .env.test.local
 .env.production.local
 .env.local
 
-# parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
 
@@ -87,15 +85,10 @@ web_modules/
 .next
 out
 
-# Nuxt.js build / generate output
 .nuxt
 dist
-
-# Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
+
 
 # vuepress build output
 .vuepress/dist
