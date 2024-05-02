@@ -49,7 +49,7 @@ npm start
             "x": 0,
             "y": 200,
             "z": 1,
-            "state": "retain" # retain 이미지(상시유지) state 값은 무시
+            "state": "retain" # retain 이미지(상시유지) 
         },
         {
             "url": "in.png",
