@@ -38,8 +38,8 @@ npm start
             "state": "" # 상태값, [""|on|off|boot|retain], boot: 부팅시 표시 이미지
         },
         {
-            "url": "logo.png",
-            "x": 0,
+            "url": "_main_logo.png",
+            "x": 0, #부팅이미지 위치 좌표는 화면 센터 기준입니다. ,x,y=0이면 가운대 위치합니다.
             "y": 0,
             "z": 0,
             "state": "boot" # 기기 부팅시 표시 이미지
