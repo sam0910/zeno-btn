@@ -31,12 +31,11 @@ npm start
     "version": "1.4", # 이미지 정보 버전
     "images": [
         {
-            "retain": 1, # 1: 상시유지, 0: 상태변경시 삭제
             "url": "logo.png", # 이미지 파일명, config.json 파일내 image_url을 기준으로 함.
             "x": 0, # x좌표
             "y": 0, # y좌표
             "z": 0, # z좌표, 레이어 순서 높을수록 상위 레이어
-            "state": "" # 상태값, [""|on|off|boot], boot: 부팅시 표시 이미지
+            "state": "" # 상태값, [""|on|off|boot|retain], boot: 부팅시 표시 이미지
         },
         {
             "url": "logo.png",
@@ -46,15 +45,13 @@ npm start
             "state": "boot" # 기기 부팅시 표시 이미지
         }
         {
-            "retain": 1,
             "url": "name.png",
             "x": 0,
             "y": 200,
             "z": 1,
-            "state": "" # retain 이미지(상시유지) state 값은 무시
+            "state": "retain" # retain 이미지(상시유지) state 값은 무시
         },
         {
-            "retain": 0,
             "url": "in.png",
             "x": 0,
             "y": 50,
@@ -62,7 +59,6 @@ npm start
             "state": "on"
         },
         {
-            "retain": 0,
             "url": "out.png",
             "x": 0,
             "y": 200,
