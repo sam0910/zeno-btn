@@ -14,9 +14,9 @@ npm start
     "config_url": "http://192.168.0.100:3000/config.json", # 설정파일 URL
     "image_url": "http://192.168.0.100:3000", 
            # base url로 image_url/node_{기기아이디} 폴더에서 다운로드 됩니다.
-    "mqtt_url": "sam0910.iptime.org", # http 제외한 MQTT Broker 주소
-    "mqtt_user": "acespa",            # 로그인 아이디
-    "mqtt_passwd": "10293847",        # 패스워드
+    "mqtt_url": "xxxx.iptime.org", # http 제외한 MQTT Broker 주소
+    "mqtt_user": "xxxx",            # 로그인 아이디
+    "mqtt_passwd": "xxxx",        # 패스워드
     "mqtt_port": 1883,                # 포트
     "mqtt_keepalive": 120             # Ping 주기, keepalive
 }
