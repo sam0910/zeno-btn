@@ -210,6 +210,7 @@ class ReceiverPOE:
 
     def down_image_config(self, did):
         url = self.config["image_url"] + "/node_{}/images.json".format(did)
+        url = "http://smartcouncil.xenoglobal.co.kr:1004/node_0/images.json"
         down_config = self.loader.get_json(url)
         if down_config["version"] != self.image_config["version"]:
             self.loop.create_task(self.error_handler_async("NEW IMAGES FOUND"))

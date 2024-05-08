@@ -40,6 +40,7 @@ class FileDownloader:
         # json_down = {"version": "0.0"}
         json_down = None
         try:
+            # headers = {"Content-Type": "application/json", "Origin": "http://smartcouncil.xenoglobal.co.kr"}
             response = urequests.get(url, timeout=5)
             json_down = ujson.loads(response.content)
             response.close()

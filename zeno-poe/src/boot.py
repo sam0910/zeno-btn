@@ -11,6 +11,12 @@ free = int(a[0] * a[3] / 1024)
 used = total - free
 print(f"\nTotal: {total} KB, Used: {used} KB, Free: {free} KB\n")
 
+# pip install --user mpremote
+# mpremote connect COM4
+# mpremote fs cp config.json :config.json
+# mpremote fs cp logsam.py :/lib/logsam.py
+# mpremote connect /dev/cu.usbserial-130
+
 # try:
 #     with open("/images.json", "r") as f:
 #         data = f.read()
