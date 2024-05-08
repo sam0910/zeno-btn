@@ -1,5 +1,11 @@
 {
     "version": "1.9",
+    "dhcp": {
+        "dns": "",
+        "gateway": "",
+        "ip": "",
+        "subnet": ""
+    },
     "buzzer": {
         "on": [
             {
