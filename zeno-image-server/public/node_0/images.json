@@ -1,6 +1,6 @@
 {
     "version": "1.9",
-    "dhcp": {
+    "network": {
         "dns": "",
         "gateway": "",
         "ip": "",
